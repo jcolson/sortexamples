@@ -12,7 +12,8 @@ int main()
 {
 	int array[6] = {5, 1, 6, 2, 4, 3};
 	// calling insertion sort function to sort the array
-	insertionSort(array, 6);
+    int n = sizeof(array)/sizeof(array[0]);
+	insertionSort(array, n);
 	return 0;
 }
  

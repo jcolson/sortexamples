@@ -1,17 +1,19 @@
 // simple C program for Quick Sort
 #include <stdio.h>
-int partition(int a[], int beg, int end);  
-void quickSort(int a[], int beg, int end);  
+int partition(int a[], int beg, int end);
+void quickSort(int a[], int beg, int end);
 
-int main()  
+int main()
 {  
-    int i;  
-    int arr[10]={90,23,101,45,65,28,67,89,34,29};  
-    quickSort(arr, 0, 9);  
-    printf("\n The sorted array is: \n");  
-    for(i=0;i<10;i++)  
-    printf(" %d\t", arr[i]);  
-}  
+    int i;
+    int arr[10]={90,23,101,45,65,28,67,89,34,29};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    quickSort(arr, 0, n-1);
+    printf("\n The sorted array is: \n");
+    for(i=0;i<10;i++)
+        printf(" %d\t", arr[i]);
+    printf("\n");
+}
 int partition(int a[], int beg, int end)  
 {  
     int left, right, temp, loc, flag;     
