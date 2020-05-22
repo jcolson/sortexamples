@@ -1,3 +1,18 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Sort Examples](#sort-examples)
+  - [How to compile](#how-to-compile)
+  - [Bubble Sort](#bubble-sort)
+  - [Insertion Sort](#insertion-sort)
+  - [Selection Sort](#selection-sort)
+  - [Quick Sort](#quick-sort)
+  - [Merge Sort](#merge-sort)
+  - [Heap Sort](#heap-sort)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Sort Examples
 
 ## How to compile
